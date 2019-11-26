@@ -12,6 +12,6 @@ cd cypress
 npm install cypress
 
 ## launch the cypress test runner
-npx cypress open
+run in terminal - `npx cypress open`
 and choose 'udemy-spec.js' test
-shortcut: you can use command 'npx cypress run --spec "cypress/integration/udemy-spec.js"' for headless run.
+shortcut: you can use command `npx cypress run --spec "cypress/integration/udemy-spec.js"` for headless run.
