@@ -3,7 +3,7 @@
 After forking this project in Github, run these commands:
 
 ## clone this repo to a local directory
-git clone https://github.com/<your-username>/cypress.git
+git clone https://github.com/gooodis/cypress.git
 
 ## cd into the cloned repo
 cd cypress
