@@ -25,6 +25,9 @@ describe('List selemium courses', () => {
   it('should go to Web Devaleopment page and search for selenium courses', () =>{
     const main = new MainPage();
     cy.wait(6000);
+    
+    // go to 'Web Developent' courses via the upper menu
+    // you can use this function without any given value in order to enter 'Web Developent' using the 'Developemnt' menu.
     main.goToWebDevCourse('categories');
     main.searchFor(COURSE_TOPIC);
     const results = new ResultsPage();
